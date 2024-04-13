@@ -12,6 +12,8 @@
 		F004A8D12BC9EE9500725B2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F004A8D02BC9EE9500725B2C /* Assets.xcassets */; };
 		F004A8D42BC9EE9500725B2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F004A8D32BC9EE9500725B2C /* Preview Assets.xcassets */; };
 		F004A8DB2BC9FF3600725B2C /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004A8DA2BC9FF3600725B2C /* Course.swift */; };
+		F0A162AF2BCB2564007BF86E /* DefaultImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A162AE2BCB2563007BF86E /* DefaultImageView.swift */; };
+		F0A162B12BCB28E9007BF86E /* CourseTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A162B02BCB28E9007BF86E /* CourseTileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		F004A8D02BC9EE9500725B2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F004A8D32BC9EE9500725B2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F004A8DA2BC9FF3600725B2C /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		F0A162AE2BCB2563007BF86E /* DefaultImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultImageView.swift; sourceTree = "<group>"; };
+		F0A162B02BCB28E9007BF86E /* CourseTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			children = (
 				F004A8CC2BC9EE9300725B2C /* Course_List__Udemy_iOS_App.swift */,
 				F004A8CE2BC9EE9300725B2C /* CourseListView.swift */,
+				F0A162B02BCB28E9007BF86E /* CourseTileView.swift */,
+				F0A162AE2BCB2563007BF86E /* DefaultImageView.swift */,
 				F004A8DA2BC9FF3600725B2C /* Course.swift */,
 				F004A8D02BC9EE9500725B2C /* Assets.xcassets */,
 				F004A8D22BC9EE9500725B2C /* Preview Content */,
@@ -140,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0A162AF2BCB2564007BF86E /* DefaultImageView.swift in Sources */,
 				F004A8DB2BC9FF3600725B2C /* Course.swift in Sources */,
 				F004A8CF2BC9EE9300725B2C /* CourseListView.swift in Sources */,
+				F0A162B12BCB28E9007BF86E /* CourseTileView.swift in Sources */,
 				F004A8CD2BC9EE9300725B2C /* Course_List__Udemy_iOS_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
