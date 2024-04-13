@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		F004A8CD2BC9EE9300725B2C /* Course_List__Udemy_iOS_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004A8CC2BC9EE9300725B2C /* Course_List__Udemy_iOS_App.swift */; };
-		F004A8CF2BC9EE9300725B2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004A8CE2BC9EE9300725B2C /* ContentView.swift */; };
+		F004A8CF2BC9EE9300725B2C /* CourseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004A8CE2BC9EE9300725B2C /* CourseListView.swift */; };
 		F004A8D12BC9EE9500725B2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F004A8D02BC9EE9500725B2C /* Assets.xcassets */; };
 		F004A8D42BC9EE9500725B2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F004A8D32BC9EE9500725B2C /* Preview Assets.xcassets */; };
+		F004A8DB2BC9FF3600725B2C /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004A8DA2BC9FF3600725B2C /* Course.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F004A8C92BC9EE9300725B2C /* Course List (Udemy iOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Course List (Udemy iOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F004A8CC2BC9EE9300725B2C /* Course_List__Udemy_iOS_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course_List__Udemy_iOS_App.swift; sourceTree = "<group>"; };
-		F004A8CE2BC9EE9300725B2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F004A8CE2BC9EE9300725B2C /* CourseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListView.swift; sourceTree = "<group>"; };
 		F004A8D02BC9EE9500725B2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F004A8D32BC9EE9500725B2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F004A8DA2BC9FF3600725B2C /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				F004A8CC2BC9EE9300725B2C /* Course_List__Udemy_iOS_App.swift */,
-				F004A8CE2BC9EE9300725B2C /* ContentView.swift */,
+				F004A8CE2BC9EE9300725B2C /* CourseListView.swift */,
+				F004A8DA2BC9FF3600725B2C /* Course.swift */,
 				F004A8D02BC9EE9500725B2C /* Assets.xcassets */,
 				F004A8D22BC9EE9500725B2C /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F004A8CF2BC9EE9300725B2C /* ContentView.swift in Sources */,
+				F004A8DB2BC9FF3600725B2C /* Course.swift in Sources */,
+				F004A8CF2BC9EE9300725B2C /* CourseListView.swift in Sources */,
 				F004A8CD2BC9EE9300725B2C /* Course_List__Udemy_iOS_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

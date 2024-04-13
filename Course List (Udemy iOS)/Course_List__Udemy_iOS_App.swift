@@ -11,7 +11,7 @@ import SwiftUI
 struct Course_List__Udemy_iOS_App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CourseListView()
         }
     }
 }
